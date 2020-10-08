@@ -30,7 +30,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbarContainer">
           <Link to="/" className="navbarLogo" onClick={closeMobileMenu}>
-            TRVL <i className="fa fa-superpowers" aria-hidden="true"></i>
+            TRVL<i className="fa fa-globe" aria-hidden="true"></i>
           </Link>
           <div className="menuIcon" onClick={handleClick}>
             <i

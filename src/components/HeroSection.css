@@ -7,7 +7,7 @@ video {
 }
 
 .heroContainer {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  background: url("/images/img-home.jpg") center center/cover no-repeat fixed;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -53,12 +53,12 @@ video {
 
 @media screen and (max-width: 768px) {
   .heroContainer > h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: -100px;
   }
 
   .heroContainer > p {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .btnMobile {
@@ -68,5 +68,8 @@ video {
 
   .btn {
     width: 100%;
+  }
+  .heroBtns {
+    width: 90%;
   }
 }
