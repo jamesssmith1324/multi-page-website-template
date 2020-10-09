@@ -16,6 +16,7 @@ function Cards() {
               label="Adventure"
               path="/destination"
               data={data[0]}
+              internal={true}
             />
             <CardItem
               src="images/img-2.jpg"
@@ -23,6 +24,8 @@ function Cards() {
               label="Luxury"
               path="/destination"
               data={data[1]}
+              internal={true}
+
             />
           </ul>
           <ul className="cardsItems">
@@ -32,6 +35,8 @@ function Cards() {
               label="Mystery"
               path="/destination"
               data={data[2]}
+              internal={true}
+
             />
             <CardItem
               src="images/img-4.jpg"
@@ -39,6 +44,8 @@ function Cards() {
               label="Adventure"
               path="/destination"
               data={data[3]}
+              internal={true}
+
             />
             <CardItem
               src="images/img-8.jpg"
@@ -46,6 +53,8 @@ function Cards() {
               label="Adrenaline"
               path="/destination"
               data={data[4]}
+              internal={true}
+
             />
           </ul>
         </div>

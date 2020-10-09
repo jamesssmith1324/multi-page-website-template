@@ -1,28 +1,30 @@
 .cards {
-  padding: 4rem;
   background: #fff;
 }
 
 h1 {
   text-align: center;
+  margin-top: 2rem;
 }
 
 .cardsContainer {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
+  /* max-width: 1120px; */
+  width: 100%;
   margin: 0 auto;
+  padding: 0rem 8rem;
 }
 
 .cardsWrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 4rem 0;
+  width: 100%;
 }
 
 .cardsItems {
-  margin-bottom: 24px;
+  margin-bottom: 10vh;
 }
 
 .cardsItem {
@@ -47,7 +49,7 @@ h1 {
 .cardsItemPicWrap {
   position: relative;
   width: 100%;
-  padding-top: 67%;
+  padding-top: 65%;
   overflow: hidden;
 }
 
@@ -99,9 +101,12 @@ h1 {
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1200px) {
-  .contentBlogContainer {
-    width: 84%;
+@media only screen and (max-width: 900px) {
+  .cardsContainer {
+    padding: 2rem;
+  }
+  .cardsItem {
+    margin: 0;
   }
 }
 

@@ -1,12 +1,13 @@
 import React from "react";
 import ImgContainer from "./ImgContainer";
+import "./DestinationSection1.css"
 
 function Section1(props) {
   return (
-    <div className="destinationAbout">
+    <div className="dSContain">
       <ImgContainer img={props.img} imageText={props.imageText} />
-      <div className="aboutText">
-        <h2>About</h2>
+      <div className="dSText">
+        <h2>{props.sectionHeading}</h2>
         <p>{props.mainText}</p>
       </div>
     </div>
@@ -14,3 +15,4 @@ function Section1(props) {
 }
 
 export default Section1;
+ 

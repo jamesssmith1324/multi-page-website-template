@@ -1,13 +1,13 @@
 import React from "react";
-import ImgContainer from "../ImgContainer";
 import CardItem from "../CardItem";
+import "../Cards.css"
 import "../../App.css";
-import "./Services.css";
+import HeroSection from "../HeroSection";
 
 export default function Services() {
   return (
     <React.Fragment>
-      <h1 className="services">SERVICES</h1>
+      <HeroSection backgroundImg="/images/img-5.jpg" mainTitle="SERVICES"/>
       <div className="cardsContainer">
         <div className="cardsWrapper">
           <ul className="cardsItems">
@@ -15,13 +15,17 @@ export default function Services() {
               src="images/img-10.jpg"
               text="Book your flight now"
               label="Flying"
-              path="/destination"
+              path="https://www.skyscanner.net/"
+              internal={false}
+
             />
             <CardItem
               src="images/img-11.jpg"
               text="Find the perfect place to stay while you go away."
               label="Hotel"
-              path="/destination"
+              path="https://www.booking.com/"
+              internal={false}
+
             />
           </ul>
         </div>

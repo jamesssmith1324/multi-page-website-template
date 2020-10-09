@@ -1,0 +1,38 @@
+.dSContain {
+  position: relative;
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 4rem 8rem;
+}
+
+.dSText {
+  flex: 4;
+  margin-left: 4rem;
+}
+
+.dSText h2 {
+  font-size: 2em;
+  margin-bottom: 2rem;
+}
+
+.dSText p {
+  font-size: 1.2em;
+  color: #989b9c;
+  transition: 0.3s;
+}
+
+.dSText p:hover {
+  color: #828485;
+}
+
+@media only screen and (max-width: 960px) {
+  .dSContain {
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
+  .dSText {
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+}
