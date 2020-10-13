@@ -28,7 +28,7 @@ function Cards() {
 
             />
           </ul>
-          <ul className="cardsItems">
+          <ul className="cardsItems cardsItemsBellow">
             <CardItem
               src="images/img-3.jpg"
               text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"

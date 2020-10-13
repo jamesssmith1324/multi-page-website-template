@@ -3,6 +3,7 @@ import Section1 from "../DestinationSection1";
 import Section2 from "../DestinationSection2";
 import HeroSection from "../HeroSection"
 import CardItem from "../CardItem";
+import Footer from "../Footer"
 
 export default function Destination(props) {
   const data = props.location.state;
@@ -38,6 +39,7 @@ export default function Destination(props) {
           </ul>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

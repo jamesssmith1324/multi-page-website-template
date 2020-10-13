@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
+import Button from "./Button";
 import "./Navbar.css";
 
 function Navbar() {
@@ -51,24 +51,24 @@ function Navbar() {
                 Services
               </Link>
             </li>
-            <li className="navItem">
+            {/* <li className="navItem">
               <Link
                 to="/products"
                 className="navLinks"
                 onClick={closeMobileMenu}>
                 Products
               </Link>
-            </li>
+            </li> */}
             <li className="navItem">
               <Link
                 to="/signup"
                 className="navLinksMobile"
                 onClick={closeMobileMenu}>
-                Sign Up
+                Sign Up 
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btnOutline">Sign Up</Button>}
+          {button && <Button form={false} to="/signup" checkButtonStyle="btnOutline" checkButtonSize="btnMedium" type="submit" text="Sign Up" />}
         </div>
       </nav>
     </React.Fragment>
